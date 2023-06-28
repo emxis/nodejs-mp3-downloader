@@ -26,4 +26,4 @@ app.post("/download", async (req, res) => {
 
 const port = 3000;
 
-app.listen(port, () => console.log(`Port ${port} üzerinde çalışıyor.`));
+app.listen(port, () => console.log(`Port is running on ${port}`));
